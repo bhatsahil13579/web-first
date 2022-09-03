@@ -394,10 +394,11 @@ button{
 #sign{
     display: flex;
     text-align: center;
+    margin-right: 5rem;
 }
 
 .three{
-    width: 90%;
+    width: 80%;
   
 }
     }
