@@ -392,12 +392,12 @@ button{
 
     @media (max-width:850px){
 #sign{
+    display: flex;
     text-align: center;
 }
 
 .three{
     width: 90%;
-    margin: 0;
-    padding: 0;
+  
 }
     }
