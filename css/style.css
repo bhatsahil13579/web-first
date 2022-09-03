@@ -214,7 +214,7 @@ html body{
 #sign{
     background-color:   hsl(238, 22%, 44%) ;
     padding-top:3rem ;
-     padding-bottom: 2rem;
+     padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
    
