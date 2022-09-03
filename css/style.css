@@ -217,7 +217,7 @@ html body{
      padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
-   
+    
     color: white;
    
     
@@ -249,7 +249,7 @@ border: none;
 
 
 #sign h2{
-  margin-left: 9rem;
+  /* margin-left: 9rem; */
    
 }
 
@@ -390,4 +390,8 @@ button{
     
 }
 
-    
+    @media (max-width:850px){
+#sign{
+    text-align: center;
+}
+    }
