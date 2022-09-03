@@ -249,7 +249,7 @@ border: none;
 
 
 #sign h2{
-  /* margin-left: 9rem; */
+  margin-left: 9rem;
    
 }
 
@@ -396,6 +396,8 @@ button{
 }
 
 .three{
-    width: 70%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
 }
     }
