@@ -111,10 +111,11 @@ html body{
     width: 50%;
  }
  .header{
-    font-size: 21px;
+    font-size: 35px;
     padding-inline: 1.5rem;
     font-weight: 1000;
-    font-size: 40px;
+    margin-left: 1rem;
+    
  }
 
  article a{
