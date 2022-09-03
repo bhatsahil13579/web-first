@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+html body{
+    overflow-x: hidden;
+}
+.top{
+    display: flex;
+   
+    
+   
+    }
+.top img{
+    padding: 1rem;
+    width: 25%;
+    font-size: 16px;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   width: 100%; 
+}
+
+.top-nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+   
+}
+
+#features img{
+    
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+   
+}
+
+
+ article h2{
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:1000;
+    font-size: 40px;
+  
+ }
+    
+    article p{
+        margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding: 0.7rem;
+   
+}
+
+   .email-button{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    padding: 0.5rem;
+    
+   }
+.input {
+    padding: 0.5rem;
+    width: 80%;
+}
+  .button{
+    padding: 0.8rem;
+    width: 80%;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+   
+  }
+
+ .section-second{
+    background-color:hsl(240, 75%, 98%);
+    display: flex;
+   flex-direction: column;
+   border-top-left-radius: 30%;
+   border-top-right-radius: 30%;
+   padding-top: 5rem;
+   padding-bottom: 2rem;
+   align-items: center;
+   text-align: center;
+    margin-top: 1rem;
+   
+ }
+ .section-second img{
+   
+    width: 50%;
+ }
+ .header{
+    font-size: 21px;
+    padding-inline: 1.5rem;
+    font-weight: 1000;
+    font-size: 40px;
+ }
+
+ article a{
+    margin-top: 2rem;
+   padding: 1rem;
+    width: 100%;
+    color: hsl(120, 52%, 34%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+   
+ }
+ .arrow{
+   
+    color: white;
+    background-color: rgb(25, 77, 25);
+    border-radius: 50%;
+   margin-left: 0.5rem;
+   font-size: 0.5px;
+    
+ }
+
+
+.profile{
+    
+    margin-top: 5rem;
+   
+    width: 100%;
+   
+} 
+.inner{
+
+    background-color: white;
+   width: 90%;
+   margin: auto;
+   border: 2px solid black;
+}
+
+.section-first{
+    border: 2px solid black;
+    
+}
+ 
+.section-first img{
+   width: 20%;
+   
+   margin-right: 17rem;
+   
+}
+
+#team{
+   
+    background-color: white;
+    width: 21rem;
+    margin: auto;
+    margin-left: 1.4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+   
+
+}
+
+.lower{
+    display: flex;
+   
+   
+}
+ .lower img{
+    display: block;
+   width: 60px;
+   height: 60px;
+   margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+   
+   
+   
+ }
+ .lower p{
+    margin-top: 0.5rem;
+   
+    margin-left: 1rem;
+ }
+.first{
+    color:black;
+    font-weight: bolder;
+}
+
+.second{
+    font-size:10px ;
+}
+
+.open{
+    font-size: 50px;
+    margin-right: 15rem;
+}
+
+#sign{
+    background-color:   hsl(238, 22%, 44%) ;
+    padding-top:1rem ;
+     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+    color: white;
+   
+    
+  
+}
+.section-third{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+   align-items: center; 
+width: 100%;
+
+}
+
+.sign-button input{
+   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+   margin-bottom: 0.5rem;
+  
+}
+
+.sign-button button{
+padding: 0.5rem 3.7rem 0.5rem 3.7rem;
+color: white;
+background-color: hsl(224, 93%, 58%);
+border: none;
+}
+
+
+
+#sign h2{
+  margin-left: 7rem;
+   
+}
+
+footer{
+    background-color: rgb(13, 13, 55);
+    color: white;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer img{
+    margin-top: 1rem;
+}
+
+footer div{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.social{
+    color: white;
+    margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.fab:hover{
+  color:red;
+
+}
+
+.logo-bottom{
+ filter: brightness(0) invert(1);
+margin-top: -1.5rem;
+margin-bottom: 2rem;
+}
+
+button{
+    cursor: pointer;
+}
+.three{
+    font-size: 12px;
+    width: 50%;
+}
+@media   (min-width: 850px) {
+    #features { 
+        flex-direction: row-reverse;
+       
+    }
+
+    .email-button{
+        flex-direction: row ;
+        gap: 0.5rem;
+        width: 140%; 
+        
+    }
+
+    .button{
+        width: 10%;
+    }
+
+    .input{
+        width: 27%;
+    }
+
+    #features img{
+        width: 30%;
+    }
+
+    .section-second{
+        flex-direction: row-reverse;
+    }
+    #team{
+        width: 25rem;
+    }
+
+
+   .section-third{
+    flex-direction: row;
+    gap:7rem;
+   }
+
+   .sign-button input{
+    padding: 0.5rem 10rem 0.5rem 2.5rem;
+   }
+
+   .sign-button button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: -13rem;
+   }
+
+   .section-third p{
+  
+    width: 27rem;
+   }
+
+   footer{
+    flex-direction: row;
+    gap: 5rem;
+    padding-bottom: 3rem;
+   }
+
+   article h2{
+    width: 55%;
+    margin-left: 2rem;
+}
+.header{
+    width: 100%;
+    margin-left: -2rem;
+}
+.one{
+  width: 50%;  
+}
+
+.two{
+    width: 55%;
+    margin-left: 2rem;
+}
+#sign h2{
+    width: 100%;
+}
+
+}
+
+
+@media(max-width:280px){
+    #sign{
+        width: 20rem;
+    }
+
+    footer{
+        width: 20rem;
+       
+    }
+
+    
+}
+
+    
